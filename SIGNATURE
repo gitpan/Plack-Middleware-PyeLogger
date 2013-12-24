@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+SHA1 17c0d8fe71f1e6a9d5ed41fa31c4f95e11ee44d0 Changes
+SHA1 9144d205728543fdc86a1f7877821e6cd23547c9 INSTALL
+SHA1 4dceae0eaef7a9ac83dea9d378c954bfce55223a LICENSE
+SHA1 2905cc0d644c5c063096872821c0f6dcf5b3a4b0 MANIFEST
+SHA1 395de1401bb6fce0fa8ece101cd04f31200f4bbb MANIFEST.SKIP
+SHA1 618431164db8992b8f7d30d680b22ca14f1c919f META.json
+SHA1 a184da7f8e0fc06298ffa95c54ca0c4be80667b4 META.yml
+SHA1 5f6787bd30f77ed1982ece1caae5802582d4d39c Makefile.PL
+SHA1 1610474c7b79828c61d792275a1a3e7770e43af9 README
+SHA1 ec879e4c421a0329324f089c7092a1badb4218aa dist.ini
+SHA1 c0eca2061e07d7fc2345c9a465e9f6660f1a893c lib/Plack/Middleware/PyeLogger.pm
+SHA1 87b4aea289bae15bf12266a321e5318b39401777 t/00-load.t
+SHA1 1deb3bbbcae6571f1e446858dc02d184ab26ac39 t/01-simple.t
+SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iF4EAREIAAYFAlK6CvMACgkQa4OHQAFM10cXvgEAhYIFHZwtpc9k+O2ZPy4Hbevi
+QNUFASaAgiMGS+XuxLEA/18MRQ+ipaZeyh2hcRGEcsZ1Eq0RnFmlCpeoG2DuEgBc
+=oqAe
+-----END PGP SIGNATURE-----
